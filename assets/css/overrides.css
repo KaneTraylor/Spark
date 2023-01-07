@@ -1,0 +1,625 @@
+.section {
+    margin: auto;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.body {
+    overflow-x:hidden;
+}
+
+.gradient-text{
+    background-image: linear-gradient(111deg, var(--token-bd71055c-0a2c-4476-8cc9-4310acba652d, rgb(255, 146, 51)) 0%, var(--token-66dfdba2-b084-43a3-a18d-237c2893b6a7, rgb(51, 197, 197)) 100%) !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800 !important;
+    font-style: normal;
+    font-size: 50px !important;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+.main h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800 !important;
+    font-size: 24px !important;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.main p {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    size: 18px !important;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.main h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-weight: 600 !important;
+    size: 20px !important;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    font-size: 1.25rem;
+}
+
+.main h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800 !important;
+    font-style: normal;
+    font-size: 36px !important;
+    color: #000000;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+.main h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    color: #000000;
+    size: 16px !important;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1rem;
+}
+.overrides .btn-secondary {
+    background: none !important;
+    color: #009DE0 !important;
+    border: 8px solid #009DE0 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    padding: 0 25px;
+    font-size: 16px;
+    height: 55px;
+    line-height: 51px;
+    border-radius: 24px;
+    font-style: normal;
+    box-sizing: border-box;
+    border-radius: 25px !important;
+    margin-left: 36px !important;
+}
+@media (max-width: 768px){
+    .main h4 {
+        font-size: 20px !important;
+    }
+    .main h5 {
+        font-size: 16px !important;
+    }
+    .main h3 {
+        font-size: 20px !important;
+    }
+    .main p {
+        font-size: 16px !important;
+    }
+    }
+/* <!--====== HEADER PART START ======--> */
+
+.main-landing {
+    padding-top: 140px;
+}
+
+.main-landing .main-content {
+    margin-top: 60px;
+}
+
+.disclaimer {
+    padding-top: 10px !important;
+    font-size: 12px !important;
+    color: #b0b0b0 !important;
+}
+
+.press {
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .main-landing {
+        text-align: center !important;
+    }
+
+    .mobile-reverse {
+        flex-direction: column-reverse !important;
+    }
+
+    .press img {
+        max-height: 50%;
+        margin-bottom: 25px;
+    }
+
+    .main h1 {
+        font-size: 40px !important;
+    }
+}
+
+@media (max-width: 411px) {
+    .main-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main h1 {
+        font-size: 30px !important;
+    }
+
+    .main-content button {
+        margin-left: 0 !important;
+        margin-top: 15px;
+    }
+}
+
+/* <!--====== MISSION START ======--> */
+
+
+.mission {
+    background-image: url("../images/main/howItWorksBackground.svg");
+    background-position: bottom;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+}
+
+.mission-callout {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 50px 60px !important;
+}
+
+.horizontal-center {
+    text-align: center;
+}
+
+.how-it-works-line {
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+.how-it-works-line img {
+    transform: translateX(-21px);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px){
+    .mission {
+        margin-top: 20px;
+        background-image: url(../images/main/howItWorksBackground.svg);
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+/* <!--====== Features part - ======--> */
+.vertical-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.line-breaker {
+    margin-bottom: 20px;
+}
+
+.body-image-outer {
+    background-image: url(../images/main/bodyImageBackground.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.body-image {
+    width: 100%;
+	max-width: 580px;
+}
+
+.detail-section {
+    margin-bottom: 200px;
+}
+
+.last-detail-section {
+    margin-bottom: 0;
+}
+
+.body-image-3 {
+    width: 84%;
+}
+
+.body-image-2 {
+    width: 120%;
+    max-width: 600px;
+}
+.grains-rate-2 {
+    width: 100%;
+    max-width: 400px;
+}
+@media (max-width: 768px){
+    .detail-section, .vertical-center{
+        text-align: center;
+    }
+    .body-image-outer {
+        background-size: contain;
+    }
+    .detail-section {
+        margin-bottom: 100px;
+    }
+    .body-image {
+        margin-top: 30px;
+    }
+    .body-image-2, .body-image-3 {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .mission-callout {
+        padding: 30px !important;
+        margin: 0 10px;
+    }
+}
+/* <!--====== RATE PART START ======--> */
+
+.highlight {
+    color: #009DE0 !important;
+}
+
+.home-disclaimer {
+    max-width: 400px;
+    text-align: center;
+}
+
+
+/* <!--====== DOWNLOAD PART START ======--> */
+.bottom-cta {
+    background-color: #E7F5FB;
+    border-radius: 20px;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.horizontal-center {
+    text-align: center;
+}
+
+/* <!--====== ABOUT TEAM START ======--> */
+.team {
+    background-image: url(../images/main/teamBackground.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+.mission-callout {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 50px 60px !important;
+}
+@media (max-width: 768px){
+    .mission-callout {
+        padding: 30px !important;
+        margin: 0 10px;
+        text-align: center;
+    }
+    
+}
+
+/* <!--====== credit repair page start ======--> */
+
+.header-image {
+    width: 100%;
+    height: auto;
+	max-width: 2000px;
+	
+}
+
+
+.credit-bodyimage {
+    width: 100%;
+	max-width: 900px;
+}
+
+.credit-bodyimage2 {
+    width: 85%;
+	max-width: 350px;
+}
+
+.credit-bodyimage3 {
+    width: 100%;
+	max-width: 350px;
+}
+
+.number1 {
+    width: 100%;
+	max-width: 100px;
+}
+
+.number2 {
+    width: 100%;
+	max-width: 100px;
+}
+
+.number3 {
+    width: 100%;
+	max-width: 100px;
+}
+
+/* <!--====== credit repair page end======--> */
+
+/* <!--====== SUPPORT PART START ======--> */
+.support{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.tab-content {
+    padding: 0 20px;
+    font-weight: 400;
+    background: white;
+    transition: all .35s;
+}
+
+/* Search Bar */
+.search-header {
+    padding: 0 1rem;
+}
+
+.support-search-box {
+    padding: 0.8rem 3rem;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 10%);
+    font-size: medium;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/main/search.svg);
+    background-repeat: no-repeat;
+    background-position: 1rem;
+}
+
+/* Card */
+.card {
+    width: 100%;
+    color: #000000;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 10%);
+    border: none !important;
+    border-radius: 20px !important;
+    size: 16px !important;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #FFFFFF !important;
+    border-bottom: none !important;
+}
+
+.card button {
+    color: #000000;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none !important;
+    width: 100%;
+}
+
+.card button:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.card-body {
+    padding: 1.125rem 2rem !important;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.support-section {
+    font-family: 'Montserrat', sans-serif !important;
+    margin-top: 40px;
+}
+.support-contact-section {
+    margin-bottom: 48px;
+}
+
+.support-contact-section .btn {
+    width: 100%;
+}
+.support-link.active {
+    background-color: #E7F5FB !important;
+    color: #009DE0 !important;
+}
+.support-link {
+    color: #000000 !important;
+    border-radius: 10px !important;
+}
+/* For Mobile */
+.support-mobile button {
+    border: none;
+    background-color: transparent;
+}
+.mobile-support-subheader {
+    width: 100%;
+    padding: 10px 20px 0px 20px;
+}
+.support-mobile .card-body {
+    padding: 0 !important;
+}
+.support-mobile {
+    display: none;
+}
+.support-mobile .card .card-body {
+    padding: 0.5rem 2rem 1.125rem 2rem !important;
+    text-align: left;
+}
+@media (max-width: 768px){
+    
+.support-desktop {
+    display: none !important;
+}
+.support-mobile {
+    display: block;
+}
+.support-mobile h4 {
+    text-align: left;
+    font-weight: 500;
+}
+.support-section h5 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+}
+
+/* <!--====== Careers start ======--> */
+.career {
+    background-image: url("../images/main/howItWorksBackground.svg");
+    background-position: bottom;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+}
+
+.career-callout {
+    background: #ffffff;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 40%);
+    border-radius: 20px;
+    padding: 20px 20px !important;
+    width: 30%;
+    height: auto;
+}
+
+.horizontal-left {
+    text-align: left;
+}
+
+.horizontal-right {
+    text-align: right;
+}
+
+.career-line {
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.career-line img {
+    transform: translateX(-21px);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px){
+    .mission {
+        margin-top: 20px;
+        background-image: url(../images/main/howItWorksBackground.svg);
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+/* <!--====== Careers end ======--> */
+
+/* <!--====== Affiliate start ======--> */
+
+
+  .affiliate-header {
+    width: 140%;
+	max-width: 2000px;
+
+}
+
+.mission-callout-affiliate {
+    background: #3392ff;
+    box-shadow: 0px 15px 30px rgb(0 0 0 / 25%);
+    border-radius: 60px;
+    padding: 30px 30px !important;
+}
+
+.affiliate4 {
+
+    width: 100%;
+    height: auto;
+}
+
+.affiliate2 {
+
+    width: 60%;
+    height: auto;
+
+}
+
+@media (max-width: 768px){
+    .affiliate2 {
+       
+        width: 50%;
+        height: auto;
+
+    }
+}
+
+
+  /* <!--====== Affiliate End  ======--> */
+
+/* <!--====== Footer PART START ======--> */
+.footer-content .logo {
+    height: 50px;
+    padding-bottom: 10px;
+}
+footer a {
+    color: #9B9B9B !important;
+}
+footer i {
+    color: #FFFFFF;
+    font-size: 21px;
+    background: #009DE0;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.btn-primary {
+    background-color: #009DE0 !important;
+    border: none !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+    font-style: normal;
+    size: 14px !important;
+    color: #ffffff !important;
+    border-radius: 8px !important;
+    padding: 16px !important;
+    line-height: 1 !important;
+}
+.footer-contact {
+    margin: 16px 16px 16px -15px;
+    width: 200px;
+}
+.footer-contact .btn {
+    margin-bottom: 8px;
+    width: 100%;
+}
+@media (max-width: 768px){
+    .footer-group {
+        margin-top: 30px;
+    }
+    footer {
+        text-align: center;
+    }
+    .footer-contact {
+        margin: 16px auto 0 auto;
+    }    
+}
+
+
+
