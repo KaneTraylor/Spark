@@ -127,7 +127,8 @@
 
     <!-- Code block-->
 
-    <section>
+    <section class="services section">=
+       <h2> <div class="text-title text-center gradient-text">we know coding can be hard.</div> </h2>
         <div class="services section">
             <div class="container">
                 <div class="row">
@@ -135,13 +136,28 @@
                         <div class="section-title">
           <div class="single-service container-code">
             <code>
-              function greet(name) {
-                console.log(`Hello, ${name}!`);
-              }
-              
-              greet('John');
-              greet('Jane');
+                import React, { useState } from 'react';
+
+                function Button() {
+                  const [message, setMessage] = useState('');
+                
+                  function handleClick() {
+                    setMessage('Thanks for choosing Spark!');
+                  }
+                
+                  return (
+                    <div>
+                      <button onClick={handleClick}>Click me</button>
+                      {message && <p>{message}</p>}
+                    </div>
+                  );
+                }
+                
+                export default Button;
+                
             </code>
+        </div>
+        </div>
         </div>
     </section>
 
