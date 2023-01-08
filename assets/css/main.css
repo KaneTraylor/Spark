@@ -2090,9 +2090,89 @@ ol {
   color: #fff;
 }
 
-.hero-area .hero-content .button {
-  margin-top: 50px;
+.main-btn {
+  display: inline-block;
+  font-weight: 900;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /*border: 2px solid #0898E7;*/
+  padding: 0 25px;
+  font-size: 16px;
+  height: 55px;
+  line-height: 51px;
+  border-radius: 24px;
+  /*color: #35a0fe;*/
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 5;
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+  /*background-color: #fff;*/ 
+  background-color: #fff;
 }
+  .main-btn:hover {
+    /*background-color: rgba(8, 152, 231, 0.7);*/
+    background-color: #0877B8;
+    /*color: #fff;*/
+    color: white;
+    border-color: transparent; }
+
+  .main-btn-bluebg {
+    margin-top: 40px;  
+  }
+  .main-btn-bluebg {
+    display: inline-block;
+    font-weight: 900;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /*border: 2px solid #0898E7;*/
+    padding: 0 25px;
+    font-size: 16px;
+    height: 55px;
+    line-height: 51px;
+    border-radius: 24px;
+    /*color: #35a0fe;*/
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 5;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+    /*background-color: #fff;*/ 
+    background-color: white;
+  }
+  .main-btn-bluebg:hover {
+    /*background-color: rgba(8, 152, 231, 0.7);*/
+    background-color: #0877B8;
+    /*color: #fff;*/
+    color: black;
+    border-color: transparent; 
+  }
+    
+  .main-btn.main-btn-2 {
+    background-color: transparent;
+    color: #525A63;
+    border-color: #525A63; }
+    .main-btn.main-btn-2:hover {
+      background-color: rgba(82, 90, 99, 0.5);
+      color: #525A63; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-area .hero-content .button {
